@@ -1,0 +1,4 @@
+.action-list {
+    block-size: var(--actionsHeight);
+    background-color: #666667;
+  }
