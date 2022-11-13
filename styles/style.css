@@ -1,5 +1,6 @@
 @import './components/chat.css';
 @import './components/header.css';
+@import './components/user.css';
 
 :root {
   --black: #000000;
