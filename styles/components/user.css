@@ -4,10 +4,6 @@
     justify-content: start;
     gap: .5rem;
 }
-.user p span {
-    display: block;
-    margin-bottom: .25rem;
-}
 .user__image {
     inline-size: 3rem;
     block-size: 3rem;
@@ -17,4 +13,14 @@
 .user__image img {
     inline-size: 3rem;
     block-size: 3rem;
+}
+.user p span {
+    display: block;
+    margin-bottom: .25rem;
+}
+.user-name {
+    font: var(--body-16regular);
+}
+.user-status {
+    font: var(--caption-12bold);
 }
