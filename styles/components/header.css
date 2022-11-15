@@ -1,4 +1,15 @@
 .header {
-    block-size: var(--headerHeight);
-    background-color: var(--grey-3);
+    background-color: var(--gray-4);
+    block-size: var(--headerSize);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.header__primary,
+.header__secondary {
+    display: flex;
+    gap: 1rem;
 }

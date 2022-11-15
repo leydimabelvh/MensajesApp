@@ -13,18 +13,28 @@
 <body>
     <div class="chat">
         <header class="header">
-            <div class="user">
-                <div class="user__image">
-                    <img src="./assets/images/profile.jpg" alt="User profile image" width="48" height="48">
+            <div class="header__primary">
+                <div class="user">
+                    <div class="user__image">
+                        <img src="./assets/images/profile.jpg" alt="User profile image" width="48" height="48">
+                    </div>
+                    <p class="user__info">
+                        <span class="user__info--name">Leydi Velazco</span>
+                        <span class="user__info--status">ONLINE</span>
+                    </p>
                 </div>
-                <p>
-                    <span class="user-name">Leydi Velazco</span>
-                    <span class="user-status">ONLINE</span>
-                </p>
             </div>
-            <button class="button">
-                <i>Search</i>
-            </button>
+            <div class="header__secondary">
+                <button class="button">
+                    <i>Video Call</i>
+                </button>
+                <button class="button">
+                    <i>Call</i>
+                </button>
+                <button class="button">
+                    <i>Search</i>
+                </button>
+            </div>
         </header>
         <div class="message-list">
             <p>Messages</p>
