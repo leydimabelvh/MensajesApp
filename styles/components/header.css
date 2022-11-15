@@ -1,4 +1,4 @@
 .header {
     block-size: var(--headerHeight);
-    background-color: #429488;
+    background-color: var(--grey-3);
 }
