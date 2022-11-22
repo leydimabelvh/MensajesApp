@@ -1,4 +1,7 @@
 .message__list {
     flex-grow: 1;
     background-color: #e1f7cb;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
   }
