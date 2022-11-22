@@ -2,6 +2,7 @@
 @import './components/header.css';
 @import './components/user.css';
 @import './components/message-list.css';
+@import './components/message.css';
 @import './components/date.css';
 @import './components/action-list.css';
 

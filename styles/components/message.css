@@ -1,0 +1,36 @@
+.message {
+    padding: .5rem;
+}
+.message.is-sender {
+    background-color: var(--green-1);
+    font: var(--body-16regular);
+    border-radius: .5rem 0 .5rem .5rem ;
+    align-self: flex-end;
+}
+.message.is-receiver {
+    background-color: var(--white);
+    font: var(--body-16regular);
+    border-radius: 0 .5rem .5rem .5rem ;
+    align-self: flex-start;
+}
+.message__text {
+    margin: 0;
+}
+.message__detail {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: .25rem;
+}
+.message__date {
+    font: var(--caption-12regular);
+    color: var(--gray-1);
+}
+.message.message.is-sender .message__status {
+    inline-size: 1rem;
+    block-size: 1rem;
+    background-image: url('../../assets/images/check-message.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
