@@ -2,7 +2,9 @@
     flex-grow: 1;
     background-color: #E3DCD6;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
+    gap: 1.5rem;
     background-image: url('../../assets/images/wallpaper.png');
+    padding: 1rem;
 }
