@@ -1,4 +1,9 @@
 .action__list {
   block-size: var(--actionSize);
   background-color: var(--gray-4);
+  display: flex;
+}
+
+.action__message {
+  flex-grow: 1;
 }
