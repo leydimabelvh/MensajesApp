@@ -2,8 +2,8 @@
   block-size: var(--actionSize);
   background-color: var(--gray-4);
   display: flex;
+  gap: 1rem;
 }
-
 .action__message {
   flex-grow: 1;
 }
