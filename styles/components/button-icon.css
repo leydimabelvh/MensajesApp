@@ -1,0 +1,9 @@
+.buttonIcon {
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    border: none;
+    padding: 0;
+}
+.buttonIcon i {
+    font-size: 1.5rem;
+}
