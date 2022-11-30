@@ -7,6 +7,7 @@
 @import './components/action-list.css';
 @import './icon.css';
 @import './components/button-icon.css';
+@import './components/chat-list.css';
 
 :root {
   --black: #000000;
