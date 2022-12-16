@@ -1,0 +1,22 @@
+.chatFinder {
+    background-color: var(--gray-3);
+    padding: 1rem;
+}
+
+.chatFinder__content {
+    box-sizing: border-box;
+    background-color: var(--white);
+    block-size: 3rem;
+    border-radius: 3.125rem;
+
+    padding: .875rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.chatFinder
+.chatFinder__text {
+    font: var(--body-16regular);
+    color: var(--gray-1);
+}
