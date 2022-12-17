@@ -13,3 +13,27 @@
     display: flex;
     gap: 1rem;
 }
+
+.header__secondary .buttonIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__secondary {
+    gap: 1.5rem;
+}
+
+.header__secondary .buttonIcon .icon-video,
+.header__secondary .buttonIcon .icon-phone {
+    font-size: 1.125rem;
+}
+
+.header__secondary .buttonIcon .icon-search {
+    font-weight: bold;
+}
+
+.header__secondary .separatorIcon {
+    inline-size: .125rem;
+    background-color: #4847474c;
+}
