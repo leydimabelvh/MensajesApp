@@ -10,6 +10,7 @@
 @import './components/chat-list.css';
 @import './components/chat-finder.css';
 @import './components/card-message.css';
+@import './components/card-message-list.css';
 
 :root {
   --black: #000000;

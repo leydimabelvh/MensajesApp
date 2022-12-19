@@ -1,0 +1,5 @@
+.divider__chats {
+    margin: 0 auto;
+    inline-size: 85%;
+    border: 1px solid var(--gray-2);
+}
