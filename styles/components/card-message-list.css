@@ -1,3 +1,9 @@
+.cardMessageList {
+    /* flex: 1; */
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
 .divider__chats {
     margin: 0 auto;
     inline-size: 85%;
