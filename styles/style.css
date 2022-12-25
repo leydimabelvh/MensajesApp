@@ -1,3 +1,4 @@
+@import './components/body.css';
 @import './components/chat.css';
 @import './components/header.css';
 @import './components/user.css';
@@ -11,6 +12,8 @@
 @import './components/chat-finder.css';
 @import './components/card-message.css';
 @import './components/card-message-list.css';
+
+
 
 :root {
   --black: #000000;
@@ -34,10 +37,7 @@
 
   --headerSize: 80px;
   --actionSize: 80px;
+  --searchSize: 80px;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-  margin: 0;
-  padding: 0;
-}
+
