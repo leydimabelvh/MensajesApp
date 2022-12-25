@@ -1,6 +1,8 @@
 .chatFinder {
     background-color: var(--gray-3);
     padding: 1rem;
+    block-size: var(--searchSize);
+    box-sizing: border-box;
 }
 
 .chatFinder__content {
