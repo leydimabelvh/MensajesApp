@@ -1,0 +1,6 @@
+.layout {
+    display: flex;
+}
+.layout .layout-chat {
+    flex: 1;
+}

@@ -12,7 +12,7 @@
 @import './components/chat-finder.css';
 @import './components/card-message.css';
 @import './components/card-message-list.css';
-
+@import './components/layout.css';
 
 
 :root {
