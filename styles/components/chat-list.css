@@ -1,3 +1,6 @@
-.chat-list {
+.chatList {
     inline-size: 27.5rem;
+    block-size: 100vh;
+    display: flex;
+    flex-direction: column;
 }
