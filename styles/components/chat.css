@@ -2,4 +2,10 @@
     block-size: 100vh;
     display: flex;
     flex-direction: column;
-  }
+}
+
+  @media screen and (max-width: 575.98px) {
+    .chat {
+      min-inline-size: 22.5rem;
+    }
+}
